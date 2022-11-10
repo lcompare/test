@@ -1,5 +1,7 @@
 #!groovy
 
+String[] arr = [ "one","two","three",'four','five' ]
+
 pipeline{
     agent { any{} }
     
